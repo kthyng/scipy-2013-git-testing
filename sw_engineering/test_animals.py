@@ -25,7 +25,7 @@ def test_mean():
     nums=[np.nan, 2, 3, 4, 5, 6]
     refmean=3.5
     mean = animals.mean(nums)
-    assert mean == np.nan
+    assert np.isnan(mean)
 
 
 
