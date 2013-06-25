@@ -71,8 +71,10 @@ def mean(nums):
     m : number
 
     """
+
+    from numpy import average
     
-    m = (1.0*sum(nums)) / (1.0*len(nums))
+    m = average(nums)
     return m
 
 
